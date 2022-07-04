@@ -1,0 +1,21 @@
+@media screen and (max-width: 425px) {
+    
+  
+    .container{
+        text-align: justify;
+        margin: auto;
+        height: auto
+  
+        }
+    
+    }
+
+    #b{
+        text-align: justify;
+        margin: auto;
+        height: auto;
+        padding:auto
+  
+        }
+    
+    

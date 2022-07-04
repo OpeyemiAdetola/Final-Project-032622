@@ -1,0 +1,301 @@
+@media screen and (max-width: 425px) {
+    .card {
+      flex-direction: row;
+      position: static;
+      width: 100%;
+      height: auto;
+      margin: auto;
+  
+    }
+  
+    .container{
+      flex-direction: column;
+      max-width: 100%;
+      margin: auto;
+      height: auto
+    }
+    
+  .blink{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    
+    h2{
+    font-size: 10px;
+    font-family: serif;
+    color:#800000;
+    text-align:justify;
+    animation: animate 1.5s linear infinite;
+    }
+    
+    @keyframes animate{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0;
+    }
+    }
+   
+    
+  }
+  
+  
+  
+  @media screen and (max-width: 600px)  {
+    .card {
+      flex-direction: column;
+      position: static;
+      max-width: 90%;
+      height: auto;
+      margin: auto;
+    }
+  
+    .container{
+      flex-direction: column;
+      max-width: 90%;
+      margin: auto;
+      height: auto
+    }
+    
+  .blink{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    
+    h2{
+    font-size: 30px;
+    font-family: serif;
+    color:#800000;
+    text-align:justify;
+    animation: animate 1.5s linear infinite;
+    }
+    
+    @keyframes animate{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0;
+    }
+    }
+   
+    
+  }
+  
+  
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    .card {
+      flex-direction: column;
+      position: static;
+      max-width: 90%;
+      height: auto;
+      margin: auto;
+    }
+  
+    .container{
+      flex-direction: column;
+      max-width: 90%;
+      margin: auto;
+      height: auto
+    }
+    
+  .blink{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 90%;
+  left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    
+    h2{
+    font-size: 40px;
+    font-family: serif;
+    color:#ff0000;
+    text-align:justify;
+    animation: animate 1.5s linear infinite;
+    }
+    
+    @keyframes animate{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0;
+    }
+    }
+   
+    
+  }
+  
+  
+  @media screen and (min-width: 992px) and (max-width: 1120px) {
+    .card {
+      flex-direction: column;
+      position: static;
+      max-width: 90%;
+      height: auto;
+      margin: auto;
+  
+    }
+  
+    .container{
+      flex-direction: column;
+      max-width: 90%;
+      margin: auto;
+      height: auto
+    }
+ 
+
+
+  .blink{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  h2{
+  font-size: 50px;
+  font-family: serif;
+  color:#800000;
+  text-align:justify;
+  animation: animate 1.5s linear infinite;
+  }
+  
+  @keyframes animate{
+  0%{
+      opacity: 0;
+  }
+  50%{
+      opacity: 0.7;
+  }
+  100%{
+      opacity: 0;
+  }
+  }
+}
+
+  
+@media screen and (min-width: 1200px) and (max-width: 1200px) {
+    .card {
+      flex-direction: column;
+      position: static;
+      max-width: 100%;
+      height: auto;
+      margin: auto;
+  
+    }
+  
+    .container{
+      flex-direction: column;
+      max-width: 90%;
+      margin: auto;
+      height: auto
+    }
+ 
+
+
+  .blink{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  h2{
+  font-size: 90px;
+  font-family: serif;
+  color:#ff0000;
+  text-align:center;
+  animation: animate 1.5s linear infinite;
+  }
+  
+  @keyframes animate{
+  0%{
+      opacity: 0;
+  }
+  50%{
+      opacity: 0.7;
+  }
+  100%{
+      opacity: 0;
+  }
+  }
+}
+
+  
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    .card {
+      flex-direction: column;
+      position: static;
+      max-width: 100%;
+      height: auto;
+      margin: auto;
+  
+    }
+  
+    .container{
+      flex-direction: column;
+      max-width: 90%;
+      margin: auto;
+      height: auto
+    }
+ 
+
+
+  .blink{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  h2{
+  font-size: 90px;
+  font-family: serif;
+  color:#ff0000;
+  text-align:center;
+  animation: animate 1.5s linear infinite;
+  }
+  
+  @keyframes animate{
+  0%{
+      opacity: 0;
+  }
+  50%{
+      opacity: 0.7;
+  }
+  100%{
+      opacity: 0;
+  }
+  }
+}
+
+
+ 
+  

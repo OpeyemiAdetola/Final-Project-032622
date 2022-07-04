@@ -1,0 +1,78 @@
+
+@media screen and (max-width: 425px) {
+  .card {
+    flex-direction: row;
+    position: static;
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+  }
+
+  .container1,
+  .container2 {
+    flex-direction: column;
+    max-width: 90%;
+    margin: auto;
+    height: auto
+  }
+}
+
+
+
+@media screen and (max-width: 600px) and (max-width: 1200px) {
+  .card {
+    flex-direction: column;
+    position: static;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+  }
+
+  .container1,
+  .container2 {
+    flex-direction: column;
+    max-width: 90%;
+    margin: auto;
+    height: auto
+  }
+}
+
+
+@media screen and (max-width: 768px) and (max-width: 1200px) {
+  .card {
+    flex-direction: column;
+    position: static;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+  }
+
+  .container1,
+  .container2 {
+    flex-direction: column;
+    max-width: 90%;
+    margin: auto;
+    height: auto
+  }
+}
+
+
+@media screen and (max-width: 992px) and (max-width: 1200px) {
+  .card {
+    flex-direction: column;
+    position: static;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+
+  }
+
+  .container1,
+  .container2 {
+    flex-direction: column;
+    max-width: 90%;
+    margin: auto;
+    height: auto
+  }
+}
